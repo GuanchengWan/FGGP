@@ -9,5 +9,13 @@ Federated Graph Learning is a privacy-preserving collaborative approach for trai
 ## Citation
 
 ``` latex
-
+@inproceedings{wan2024federated,
+  title={Federated Graph Learning under Domain Shift with Generalizable Prototypes},
+  author={Wan, Guancheng and Huang, Wenke and Ye, Mang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={14},
+  pages={15429--15437},
+  year={2024}
+}
 ```
