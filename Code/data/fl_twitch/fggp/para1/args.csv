@@ -1,0 +1,2 @@
+communication_epoch,dataset,method,backbone,use_knn,hidden,knn,size,neibor,personal,knn_frequence,ema,use_att,train_conv,local_epoch,local_lr,parti_num,depth,rand_dataset,pri_aug,online_ratio,learning_decay,averaing,mu,infoNCET,T,weight,mu_moon,temperature_moon,reserv_ratio
+200,fl_twitch,gdg,pmlp_gcn,True,128,40,20,3,fcs.2,10,0.9,False,True,6,0.003,15,2,False,weak,1,False,weight,0.01,0.02,0.05,1,5,0.5,0.1
