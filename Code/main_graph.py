@@ -53,7 +53,7 @@ def parse_args():
 
 
     # --------------------  model ---------------------
-    parser.add_argument('--model', type=str, default='fplg',  # fedavg
+    parser.add_argument('--model', type=str, default='fggp',  # fedavg
                         help='Model name.', choices=get_all_models())
     # --------------------  model ---------------------
 

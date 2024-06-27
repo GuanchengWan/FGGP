@@ -72,7 +72,7 @@ class FedTwitch(FederatedDataset):
     NAME = 'fl_twitch'
     SETTING = 'domain_skew'
     DOMAINS_LIST =  ['DE', 'EN', 'ES', 'FR', 'PT', 'RU']
-    domain_dict =  { 'EN':2, 'ES':2, 'FR':2, 'PT':2, 'RU': 2,'DE':10}
+    domain_dict =  { 'EN':2, 'ES':2, 'FR':2, 'PT':2, 'RU': 2,'DE':20}
     N_CLASS = 2
 
     def get_data_loaders(self, selected_domain_list={}):

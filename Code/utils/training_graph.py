@@ -154,11 +154,11 @@ def train(model: FederatedModel, private_dataset: FederatedDataset,
                 accs_dict[i].append(accs[i])
             else:
                 accs_dict[i] = [accs[i]]
-            if epoch_index >= Epoch - 5:
-                print('-' * 80)
-                print('The ' + str(epoch_index) + ' Communication Accuracy:', str(mean_acc), 'Method:',
-                      model.args.model)
-                print('-' * 80)
+        if epoch_index >= Epoch - 5:
+            print('-' * 80)
+            print('The ' + str(epoch_index) + ' Communication Accuracy:', str(mean_acc), 'Method:',
+                  model.args.model)
+            print('-' * 80)
 
 
     final_mean_acc = round(np.mean(mean_accs_list[-5:]), 4)
